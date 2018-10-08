@@ -10,24 +10,38 @@ Want to win a hackathon? Take a read through some helpful material, centered aro
 
 * Hack + Marathon = Hackathon
 
-# Basic Steps
-1. Describe a business problem - Identify a problem that you think you can sovle. Choose something that you know is a pain point or a problem that your solution will solve.
-2. Tell a story about your solution - Make sure that you explain how your soluition is different from anything else out there and what benefit your solution has to the problem that you solved.
-3. Demo! - Show whatever you have, even if it's just a basic demo. Pro-tip: Always record a demo ahead of time incase you have an issue with the live demo so you can still show it!
-4. Talk about your technology implementation - Explain the architecture behind your solution, what services or technologies you used, helpful libraries, etc
-5. Show the code, even if its a rough prototype - no matter how hacky your code might be, show it! It's always nice to see that you've written the code behind your solution.
-6. What you learned - Talk about the good and the bad that you've experienced as you went through putting something together!
-7. Why your solution to the business problem matters - Explain the value behind what you created. Why would people want to use this? What benefit could a person or business get from your solution?
-8. Next steps - Where can you take this idea next? What are some "stretch goals" or future ideas that you weren't able to squeeze into this first iteration?
+# 8 Basic Steps to Win a Hackathon
+#### 1. Describe a business problem
+Identify a problem that you think you can sovle. Choose something that you know is a pain point or a problem that your solution will solve.
+#### 2. Tell a story about your solution
+Make sure that you explain how your soluition is different from anything else out there and what benefit your solution has to the problem that you solved.
+#### 3. Demo!
+Show whatever you have, even if it's just a basic demo.
+
+**Pro-tip: Always record a demo ahead of time incase you have an issue with the live demo so you can still show it!**
+#### 4. Talk about your technology implementation
+Explain the architecture behind your solution, what services or technologies you used, helpful libraries, etc
+#### 5. Show the code, even if its a rough prototype
+no matter how hacky your code might be, show it! It's always nice to see that you've written the code behind your solution.
+#### 6. What you learned
+Talk about the good and the bad that you've experienced as you went through putting something together!
+#### 7. Why your solution to the business problem matters
+Explain the value behind what you created. Why would people want to use this? What benefit could a person or business get from your solution?
+#### 8. Next steps
+Where can you take this idea next? What are some "stretch goals" or future ideas that you weren't able to squeeze into this first iteration?
 
 # Useful Tools
-Don't feel like setting up an enviroment for your hackathon? Wish you could just use something pre-built? Fear not! Here is a link to 2 containers I've made that will get your there quickly. 
+Don't feel like setting up an enviroment for your hackathon? Wish you could just use something pre-built? Fear not! Here is a link to 2 pre-made containers that will get your there quickly. 
 
 A container with the IBM CLI ready to go - https://github.com/derekteay/docker-ubuntu-ibm-cli
 
 A container with 4 major runtimes (Python, Java, Node.js, and .NET Core) that is fully setup and ready to go - https://github.com/derekteay/docker-multi-runtime-container
 
-# "Micro Code Patterns"
+# "Micro" Code Patterns
+If you're not familiar with IBM Code Patterns, you can find them here: https://developer.ibm.com/patterns/
+
+These patterns are great to get developers started with IBM technology, but sometimes, they're a little bit more than you need to get started. Below, I have setup a few "micro" code patterns that are the simplest way to setup a service and get you started in less than 3 minutes.
+
 ## Watson Text To Speech
 
 For any of these to work, you need to create an IBM Cloud account (Click "Sign Up" in the top right) - https://www.ibm.com/cloud/
