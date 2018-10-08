@@ -88,3 +88,5 @@ curl --user apikey:secret-api-key \
 --data '{"text": ["Hello, world!"], "model_id":"en-es"}' \
 https://gateway.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01
 ```
+
+![Language Translator Output](/screenshots/language-translator-output.png?raw=true "Language Translator Output")
