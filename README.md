@@ -47,7 +47,7 @@ For any of these to work, you need to create an IBM Cloud account (Click "Sign U
 ![Credentials](/screenshots/credentials.png?raw=true "Credentials")
 
 ```
-curl -X POST -u "c73cb44c-1b8e-4325-b1f7-269bc1829f7d":"quzVwXLvfdxD" \
+curl -X POST -u "username":"password" \
 --header "Content-Type: application/json" \
 --header "Accept: audio/wav" \
 --data '{"text": "hello world"}' \
@@ -58,7 +58,7 @@ curl -X POST -u "c73cb44c-1b8e-4325-b1f7-269bc1829f7d":"quzVwXLvfdxD" \
 Or an MP3 file
 
 ```
-curl -X POST -u "c73cb44c-1b8e-4325-b1f7-269bc1829f7d":"quzVwXLvfdxD" \
+curl -X POST -u "username":"password" \
 --header "Content-Type: application/json" \
 --header "Accept: audio/mp3" \
 --data '{"text": "hello world"}' \
