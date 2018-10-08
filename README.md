@@ -44,7 +44,7 @@ For any of these to work, you need to create an IBM Cloud account (Click "Sign U
 
 3. Get your credentials and use `curl` to turn your text into a wav file
 
-![Credentials](/screenshots/credentials.png?raw=true "Credentials")
+![Text to Speech Credentials](/screenshots/text-to-speech-credentials.png?raw=true "Text to Speech Credentials")
 
 ```
 curl -X POST -u "username":"password" \
@@ -70,10 +70,21 @@ curl -X POST -u "username":"password" \
 
 1. Create a Language Translator service - https://console.bluemix.net/catalog/?category=ai
 
+
+![Language Translator Catalog](/screenshots/language-translator-catalog.png?raw=true "Language Translator Catalog")
+
 2. Use the default options and click "Create"
+
+![Language Translator Create](/screenshots/language-translator-create.png?raw=true "Language Translator Create")
 
 3. Get your credentials and use `curl` to convert your text
 
+![Language Translator Credentials](/screenshots/language-translator-credentials.png?raw=true "Language Translator Credentials")
+
 ```
-code
+curl --user apikey:secret-api-key \
+--request POST \
+--header "Content-Type: application/json" \
+--data '{"text": ["Hello, world!"], "model_id":"en-es"}' \
+https://gateway.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01
 ```
