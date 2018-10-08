@@ -32,13 +32,22 @@ A container with 4 major runtimes (Python, Java, Node.js, and .NET Core) that is
 
 For any of these to work, you need to create an IBM Cloud account (Click "Sign Up" in the top right) - https://www.ibm.com/cloud/
 
+![IBM Cloud Registration](/screenshots/ibm-cloud-sign-up.png?raw=true "IBM Cloud Registration")
+
 1. Create a Text to Speech service - https://console.bluemix.net/catalog/?category=ai
+
+![Speech to Text Catalog](/screenshots/text-to-speech-catalog.png?raw=true "Speech to Text Catalog")
 
 2. Use the default options and click "Create"
 
+![Speech to Text Create](/screenshots/text-to-speech-create.png?raw=true "Speech to Text Create")
+
 3. Get your credentials and use `curl` to turn your text into a wav file
 
-```curl -X POST -u "c73cb44c-1b8e-4325-b1f7-269bc1829f7d":"quzVwXLvfdxD" \
+![Credentials](/screenshots/credentials.png?raw=true "Credentials")
+
+```
+curl -X POST -u "c73cb44c-1b8e-4325-b1f7-269bc1829f7d":"quzVwXLvfdxD" \
 --header "Content-Type: application/json" \
 --header "Accept: audio/wav" \
 --data '{"text": "hello world"}' \
@@ -48,7 +57,8 @@ For any of these to work, you need to create an IBM Cloud account (Click "Sign U
 
 Or an MP3 file
 
-```curl -X POST -u "c73cb44c-1b8e-4325-b1f7-269bc1829f7d":"quzVwXLvfdxD" \
+```
+curl -X POST -u "c73cb44c-1b8e-4325-b1f7-269bc1829f7d":"quzVwXLvfdxD" \
 --header "Content-Type: application/json" \
 --header "Accept: audio/mp3" \
 --data '{"text": "hello world"}' \
