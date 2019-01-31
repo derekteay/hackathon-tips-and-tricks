@@ -2,9 +2,9 @@
 Want to win a hackathon? Take a read through some helpful material, centered around IBM Cloud, to take you to victory!
 
 # What's a Hackathon?
-* "Hackathons provide a venue for self-expression and creativity through technology. People with technical backgrounds come together, form teams around a problem or idea, and collaborativelycode a unique solution from scratch — these generally take shape in the form of websites, mobile apps, and robots.” ~ Open Savannah
+* "Hackathons provide a venue for self-expression and creativity through technology. People with technical backgrounds come together, form teams around a problem or idea, and collaboratively code a unique solution from scratch — these generally take shape in the form of websites, mobile apps, and robots.” ~ Open Savannah
 
-* “A hackathon is a competitive event in which teams of designers, developers, and subject matter experts collaborateto create solutions for a specific problem within a defined time frame.” ~ hackerearth.com
+* “A hackathon is a competitive event in which teams of designers, developers, and subject matter experts collaborate to create solutions for a specific problem within a defined time frame.” ~ hackerearth.com
 
 * A weekend of collaborative coding (sometimes nonstop)
 
