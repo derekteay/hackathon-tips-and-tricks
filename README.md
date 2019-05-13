@@ -22,7 +22,7 @@ Show whatever you have, even if it's just a basic demo.
 #### 4. Talk about your technology implementation
 Explain the architecture behind your solution, what services or technologies you used, helpful libraries, etc
 #### 5. Show the code, even if its a rough prototype
-no matter how hacky your code might be, show it! It's always nice to see that you've written the code behind your solution.
+No matter how hacky your code might be, show it! It's always nice to see that you've written the code behind your solution.
 #### 6. What you learned
 Talk about the good and the bad that you've experienced as you went through putting something together!
 #### 7. Why your solution to the business problem matters
